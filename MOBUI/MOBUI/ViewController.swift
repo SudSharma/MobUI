@@ -15,15 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Customize the text field as needed
-        dateTextField.placeholder = "Select Date and Time"
-        dateTextField.borderStyle = .roundedRect
-        
-        // Add the text field to the view
+        // Add the date picker to the view
         view.addSubview(datePicker)
         
         setupConstraints()
-        
     }
 
     func setupConstraints() {
