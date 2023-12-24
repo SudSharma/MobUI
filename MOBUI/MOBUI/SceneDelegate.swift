@@ -1,8 +1,5 @@
 //
 //  SceneDelegate.swift
-//  MOBUI
-//
-//  Created by Sudarshan Sharma on 12/23/23.
 //
 
 import UIKit
